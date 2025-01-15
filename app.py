@@ -102,13 +102,13 @@ def home():
 
 @app.route('/get_balance')
 def get_balance():
-    api = BitgetAPI('your_api_key', 'your_api_secret', 'your_passphrase')
+    api = BitgetAPI('bg_ffcbb26a743c6f3617a03e4edb87aa3f', 'e397e3420dbb6a1b48dfef734e6ef8d6aaf29ee44a044d51dd1742a8143c0693', '02703242')
     balance = api.get_balance()
     return jsonify(balance)
 
 @app.route('/get_ticker')
-def get_ticker():
-    api = BitgetAPI('your_api_key', 'your_api_secret', 'your_passphrase')
+def get_ticker():your_api_secret
+    api = BitgetAPI('bg_ffcbb26a743c6f3617a03e4edb87aa3f', 'e397e3420dbb6a1b48dfef734e6ef8d6aaf29ee44a044d51dd1742a8143c0693', '02703242
     ticker = api.get_ticker()
     return jsonify(ticker)
 
