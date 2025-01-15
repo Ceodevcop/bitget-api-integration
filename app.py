@@ -64,7 +64,7 @@ def home():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bitget API Integration</title>
+        <title>Bitget EA90</title>
         <style>
             body { font-family: Arial, sans-serif; margin: 20px; }
             h1 { color: #333; }
@@ -74,7 +74,7 @@ def home():
         </style>
     </head>
     <body>
-        <h1>Bitget API Integration</h1>
+        <h1>EA90</h1>
 
         <button onclick="fetchBalance()">Fetch Balance</button>
         <button onclick="fetchTicker()">Get Ticker (BTC/USDT)</button>
